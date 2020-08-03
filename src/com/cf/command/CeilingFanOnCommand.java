@@ -19,11 +19,4 @@ public class CeilingFanOnCommand implements Command {
         prevSpeed = ceilingFan.getSpeed();
         ceilingFan.high();
     }
-
-    @Override
-    public void undo() {
-        if(prevSpeed == CeilingFan.HIGH){
-
-        }
-    }
 }
